@@ -13,6 +13,6 @@ public class Zombie : MonoBehaviour
     
     void Update()
     {
-        
+        transform.position = Vector3.Lerp(transform.position, Game.game.player.transform.position, Time.deltaTime);
     }
 }
