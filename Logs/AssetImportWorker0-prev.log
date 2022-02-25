@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2021.1.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Xi-Xi Kaisoku/Desktop/School/School Assignments/Quarter 10/Projects in existing code/ZombieFPS/ZombieFPS
+C:/Users/Matthew/Documents/.Neumont/Software Projects in Existing Code/FPS Game/Multiplayer-FPS-master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63317
-Successfully changed project path to: C:/Users/Xi-Xi Kaisoku/Desktop/School/School Assignments/Quarter 10/Projects in existing code/ZombieFPS/ZombieFPS
-C:/Users/Xi-Xi Kaisoku/Desktop/School/School Assignments/Quarter 10/Projects in existing code/ZombieFPS/ZombieFPS
+50572
+Successfully changed project path to: C:/Users/Matthew/Documents/.Neumont/Software Projects in Existing Code/FPS Game/Multiplayer-FPS-master
+C:/Users/Matthew/Documents/.Neumont/Software Projects in Existing Code/FPS Game/Multiplayer-FPS-master
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.23f1 (b50729e604a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Xi-Xi Kaisoku/Desktop/School/School Assignments/Quarter 10/Projects in existing code/ZombieFPS/ZombieFPS/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Matthew/Documents/.Neumont/Software Projects in Existing Code/FPS Game/Multiplayer-FPS-master/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,89 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001630 seconds.
+Registered in 0.002154 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.80 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.468 seconds
+- Completed reload, in  1.248 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1468ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (379ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (162ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (140ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
+				RefreshPlugins (23ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002207 seconds.
+Registered in 0.001964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
+- Completed reload, in  0.781 seconds
 Domain Reload Profiling:
-	ReloadAssembly (728ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (522ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (154ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (194ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 970 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.8 MB.
-System memory in use after: 67.5 MB.
+Unloading 972 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 67.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1430.
-Total: 2.599400 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.037200 ms MarkObjects: 2.241300 ms  DeleteObjects: 0.199700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1436.
+Total: 2.428000 ms (FindLiveObjects: 0.094600 ms CreateObjectMapping: 0.023600 ms MarkObjects: 2.135700 ms  DeleteObjects: 0.173300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,415 +134,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3dbb20d6e2220de5aaa0f178eee431') in 0.035748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1163.266725 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab
-  artifactKey: Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_01.prefab using Guid(43cecf02ca9a29341aa80150e36f4c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f8950238e69d95ffca88fb5cd175fe') in 0.109619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab
-  artifactKey: Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_03.prefab using Guid(17a15b619ec1ddc4696479f73759de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e74b097289a5794ca610cdd43cf117') in 0.032738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab
-  artifactKey: Guid(f4bb022ab0d2a5c46b6af300deb95be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Warehouse_01.prefab using Guid(f4bb022ab0d2a5c46b6af300deb95be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362932f5c70c0105459ca007652a9ca8') in 0.039209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab
-  artifactKey: Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_01.prefab using Guid(8e8c31f8740134d4086fec064d4245d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec4f89050ffd034ed9f3f0d72045a44') in 0.032462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab
-  artifactKey: Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_02.prefab using Guid(e84635c9579383a409db6da3477e581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6accacee591544886378d8e132a78f') in 0.031091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab
-  artifactKey: Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_WoodenShack_01.prefab using Guid(bb91bd02237ba1e4fbeaf696ffe8fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a61e52e5d9130e5771f77eba127f80') in 0.030696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab
-  artifactKey: Guid(3cadbc2079e210144b233760a219b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_01.prefab using Guid(3cadbc2079e210144b233760a219b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb170fbaf34a602e9f2b3a7e6bfe782') in 0.031012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_Glass_01.prefab
-  artifactKey: Guid(e9b5d1f2bf0b9d14aa3e05c1d365110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_Glass_01.prefab using Guid(e9b5d1f2bf0b9d14aa3e05c1d365110b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cac8427bc394632ba14fd1985ab042c') in 0.028532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab
-  artifactKey: Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_SmallBuilding_03.prefab using Guid(2fc01610ec566294893d91f8d8b04a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dca0f6cec1e6e3c3531388ebd1d0ba6') in 0.031141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab
-  artifactKey: Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Tent_02.prefab using Guid(d4ecf54e1ea1911499271cb18852e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77ef8b902540b461633d1a297f31f53') in 0.029609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab
-  artifactKey: Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_Window_Bars_01.prefab using Guid(7f9ce6c2d5ff73a45bbd3dd7aac0409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707a49e45d4b390be3fa0eff71ef5354') in 0.026062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_02.prefab
-  artifactKey: Guid(0cee5f343e1618e4d9b4cdf0cea994c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Buildings/SM_Bld_House_02.prefab using Guid(0cee5f343e1618e4d9b4cdf0cea994c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca487d354fb77b402cdcc6634fb359c') in 0.027989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.718110 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Smoke_FX.prefab
-  artifactKey: Guid(53777b8572d1e7242bc90044f62667ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Explosion_Smoke_FX.prefab using Guid(53777b8572d1e7242bc90044f62667ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bddc2cdd4ae8b04c80c87b900100a6') in 0.050955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Drift_FX.prefab
-  artifactKey: Guid(ca91aba3576339847bb9eede6f040b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Drift_FX.prefab using Guid(ca91aba3576339847bb9eede6f040b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551ddab955e451a54989ecb8ccf5121e') in 0.025915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/GunShot_Smoke_FX.prefab
-  artifactKey: Guid(2574ca206a571a342a7fab69fdfb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/GunShot_Smoke_FX.prefab using Guid(2574ca206a571a342a7fab69fdfb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f01414870ebf7499a0327a8f3546ac') in 0.043242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Fire_01_FX.prefab
-  artifactKey: Guid(fabff3cbe4a4be24a90f7b23e155e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Fire_01_FX.prefab using Guid(fabff3cbe4a4be24a90f7b23e155e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06fd0532b321fc597366844ac67d71d') in 0.039571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Fire_02_FX.prefab
-  artifactKey: Guid(f65b497ff807d95439b38e7da2fab667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Fire_02_FX.prefab using Guid(f65b497ff807d95439b38e7da2fab667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03acbd773f11dd861cead653cece697f') in 0.012271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Large_FX.prefab
-  artifactKey: Guid(1a32a091b9974a44ba00934e88f53548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Large_FX.prefab using Guid(1a32a091b9974a44ba00934e88f53548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8b71992eba28ea9fb8c3a5e3924498') in 0.012789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_FX.prefab
-  artifactKey: Guid(9b967c5de3c01184889d94aa4f20fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_FX.prefab using Guid(9b967c5de3c01184889d94aa4f20fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970c8a6cf5dea1728bf468dabca9485f') in 0.012960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Rain_FX.prefab
-  artifactKey: Guid(004c0bf81fbf1a342af7262f965b564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Rain_FX.prefab using Guid(004c0bf81fbf1a342af7262f965b564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806c3cd5f95c9868c2a7d4bd60c836b') in 0.100929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Light_FX.prefab
-  artifactKey: Guid(88458a60107da3140a2e173fe916bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Light_FX.prefab using Guid(88458a60107da3140a2e173fe916bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e333b25debafb1960e407ad59660d726') in 0.037885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Dark_FX.prefab
-  artifactKey: Guid(b92ea96f848a59944ae963daf2923c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/FX/Smoke_Small_Dark_FX.prefab using Guid(b92ea96f848a59944ae963daf2923c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ccb519ee9ce6846a1f46b7a9a090a6') in 0.015610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.920810 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Pile_01.prefab
-  artifactKey: Guid(115ce5ae47080404fa1d5d8549a2a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Bullet_Ammo_Pile_01.prefab using Guid(115ce5ae47080404fa1d5d8549a2a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c51cf33157aa00c5d2eb5e20e32dd') in 0.036011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_Sniper_01.prefab
-  artifactKey: Guid(53b9d63d478bf404aa635a330f18efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_Sniper_01.prefab using Guid(53b9d63d478bf404aa635a330f18efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33e54759ec7c6797609650e261d1a7c') in 0.019391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_01.prefab
-  artifactKey: Guid(fe347a2e8265ecb429049be8492d4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_01.prefab using Guid(fe347a2e8265ecb429049be8492d4ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ab30b0816b790aeb235b7289b49e90') in 0.017612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Pile_01.prefab
-  artifactKey: Guid(b9f9a02dbcc1eec40b1c36b103ecd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Pile_01.prefab using Guid(b9f9a02dbcc1eec40b1c36b103ecd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29161f42a4c9c9ec24fdba15dea367ec') in 0.018742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_01.prefab
-  artifactKey: Guid(9316af0d181af92458371185644b6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_01.prefab using Guid(9316af0d181af92458371185644b6a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828d323c7fcd6f79c801104934a913fa') in 0.018137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Bullet_01.prefab
-  artifactKey: Guid(9643aebe3b164bc4cae610a164fe007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Bullet_01.prefab using Guid(9643aebe3b164bc4cae610a164fe007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a4d212401c5f38851f6a5bad8ba5b') in 0.016220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_MachineGun_01.prefab
-  artifactKey: Guid(e93050ee6a1feb949b8fdc9a97d295b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_MachineGun_01.prefab using Guid(e93050ee6a1feb949b8fdc9a97d295b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc307f6758d6a13b5011a30d3d084d34') in 0.019036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab
-  artifactKey: Guid(6745051c9fe818d489695642115ceb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_03.prefab using Guid(6745051c9fe818d489695642115ceb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd087c109daa3b52cf10f0842d3a2c231') in 0.053571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab
-  artifactKey: Guid(f68f19ab55ee89d4bb00eaa083ab7849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_02.prefab using Guid(f68f19ab55ee89d4bb00eaa083ab7849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c853f1f1a33b07e8609bfce98a30cb34') in 0.023434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Machete_01.prefab
-  artifactKey: Guid(9023a47e211f9384aa25b0a32a008f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Machete_01.prefab using Guid(9023a47e211f9384aa25b0a32a008f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a229eecf83dc602317c3f2a24f6104a5') in 0.021933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_04.prefab
-  artifactKey: Guid(58ac91c2327b1cb4992fcea350e226c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_04.prefab using Guid(58ac91c2327b1cb4992fcea350e226c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0020f47b5cbef4e7fa730745cd3c6398') in 0.018909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crowbar_01.prefab
-  artifactKey: Guid(e836a075ea7fb4948a5ac07f447e206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crowbar_01.prefab using Guid(e836a075ea7fb4948a5ac07f447e206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f39c3f5489eac98c5d758c68c835eb') in 0.018814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Pile_01.prefab
-  artifactKey: Guid(f2b73a5ff7f548340ba0a4ffd857859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Pile_01.prefab using Guid(f2b73a5ff7f548340ba0a4ffd857859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1465040a8912234ce0e9af1ba81733') in 0.016625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pickaxe_01.prefab
-  artifactKey: Guid(7da2ab92a3d002547933b538f4ef3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pickaxe_01.prefab using Guid(7da2ab92a3d002547933b538f4ef3d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a082523af749cc5e328c3b45ad7f187') in 0.021721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Revolver_01.prefab
-  artifactKey: Guid(6993fd0e7237f024e80f00288eb435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Revolver_01.prefab using Guid(6993fd0e7237f024e80f00288eb435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8713f3d40f3ec90ab0ac6d9abdc3bb') in 0.019861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pan_01.prefab
-  artifactKey: Guid(3e423096e91b7cb4880f4621cd70d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pan_01.prefab using Guid(3e423096e91b7cb4880f4621cd70d11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e503fb3cc8a28608017ef53af5d559a') in 0.019305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_03.prefab
-  artifactKey: Guid(586bb7eb152304c49b7fc8d4f71bec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_03.prefab using Guid(586bb7eb152304c49b7fc8d4f71bec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bb1fe9dd24395730f92fa7ec45d7a0') in 0.018527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab
-  artifactKey: Guid(68317e2c4c57a6e45be7063240f91cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Heavy_01.prefab using Guid(68317e2c4c57a6e45be7063240f91cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fa1624adf7ee568d69fcda3270fb6b') in 0.020166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_01.prefab
-  artifactKey: Guid(b0ebd2945a651384c9cf9aecd052b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_01.prefab using Guid(b0ebd2945a651384c9cf9aecd052b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62efd1aa7457aa4e42e331f394b78306') in 0.022073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab
-  artifactKey: Guid(b2db02f91acb81c499a6fe0235afc719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Launcher_01.prefab using Guid(b2db02f91acb81c499a6fe0235afc719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0930c8cc2b47f2e19c8c8c9be1173228') in 0.020353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Flare_01.prefab
-  artifactKey: Guid(246e2fda4167a7f4a9f9417c6bc5193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Flare_01.prefab using Guid(246e2fda4167a7f4a9f9417c6bc5193f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed93e57853c53a4dd5be9b71ddb52c9') in 0.017672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Box_01.prefab
-  artifactKey: Guid(d2030e1dd6e306449a4df92ccbf93938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Pistol_Ammo_Box_01.prefab using Guid(d2030e1dd6e306449a4df92ccbf93938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914c80488da133337131fe3ea56e908a') in 0.019516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_02.prefab
-  artifactKey: Guid(65220ff33a543ac45bc528238f48a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_02.prefab using Guid(65220ff33a543ac45bc528238f48a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c941ec6c8775d03450e45ec7de529632') in 0.018335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Revolver_Snub_01.prefab
-  artifactKey: Guid(ee2cb268404949a4fbaadcf58acb29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Revolver_Snub_01.prefab using Guid(ee2cb268404949a4fbaadcf58acb29c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51524d56fa41fe98286a0a55594af60f') in 0.019702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_05.prefab
-  artifactKey: Guid(0c31ffc58b2b37440831206ec29610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Crosshair_05.prefab using Guid(0c31ffc58b2b37440831206ec29610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da8360552bc7e9812c57be113664808') in 0.016940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab
-  artifactKey: Guid(be20da268d490c44c8460e91a7cd3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_01.prefab using Guid(be20da268d490c44c8460e91a7cd3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd633e3dd712ce1ea07c0780945ea4015') in 0.020148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Box_01.prefab
-  artifactKey: Guid(617ad14b82f4de54e8b80e9a3288990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Ammo_Box_01.prefab using Guid(617ad14b82f4de54e8b80e9a3288990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7a8dec9946333a29e184e13571949d') in 0.019644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab
-  artifactKey: Guid(dc24a25ae7542b44ba62b25047680a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_04.prefab using Guid(dc24a25ae7542b44ba62b25047680a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f889dbe8968fb229241725d4c0299fe') in 0.019121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Flare_Ammo_01.prefab
-  artifactKey: Guid(afe8052099cab224886ec5c44670dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Flare_Ammo_01.prefab using Guid(afe8052099cab224886ec5c44670dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9fd14d09819d905bb8763c2fda4db6') in 0.017202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Smoke_01.prefab
-  artifactKey: Guid(9542e0a3f73ed4c4caa252dddf2fcdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_Smoke_01.prefab using Guid(9542e0a3f73ed4c4caa252dddf2fcdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4845790ab0b415dd366e86917f160c') in 0.018863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_05.prefab
-  artifactKey: Guid(04e8ca980b4beed48979d827d8250fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Rifle_Assault_05.prefab using Guid(04e8ca980b4beed48979d827d8250fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cb2d2a36009b683c33fb9355f88cff') in 0.018068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Fireaxe_01.prefab
-  artifactKey: Guid(c59e08db54612244384ff025bbac7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Fireaxe_01.prefab using Guid(c59e08db54612244384ff025bbac7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de6fc38e8547645000c6920c28a1c5') in 0.018721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_01.prefab
-  artifactKey: Guid(1ddc1d0c706325d4ab53c03f00f0520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Grenade_01.prefab using Guid(1ddc1d0c706325d4ab53c03f00f0520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b41d9d57ce878d914865c4336b4c8a') in 0.019036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.749234 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RiotShield_01.prefab
-  artifactKey: Guid(6d681d8c0b8ff204ea958a229a248b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RiotShield_01.prefab using Guid(6d681d8c0b8ff204ea958a229a248b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6ad331e4c190cba54fedcd61b2aef') in 0.033230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_01.prefab
-  artifactKey: Guid(96631445180422140bb3de3e846561d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_01.prefab using Guid(96631445180422140bb3de3e846561d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bb0191f7fbd92ef5b83c3d39d70ccb') in 0.019663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Pile_01.prefab
-  artifactKey: Guid(57c68e4d186be6243a5310e827beb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Pile_01.prefab using Guid(57c68e4d186be6243a5310e827beb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed28c9ccafc020122a0a3404d72767b8') in 0.019805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Box_01.prefab
-  artifactKey: Guid(9a343161ba13ade44bfd75098cc0605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_Ammo_Box_01.prefab using Guid(9a343161ba13ade44bfd75098cc0605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695b2e2571eadd46a86ad3d7c58dcd56') in 0.025387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_01.prefab
-  artifactKey: Guid(945e4faa3898cfb4d8a0ae7d2a6266ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_01.prefab using Guid(945e4faa3898cfb4d8a0ae7d2a6266ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec2c450c119b9ada0ce8cc9e3aa61ad') in 0.022127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_01.prefab
-  artifactKey: Guid(118c44d3f9a3bcf49a971bc47fc1a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_01.prefab using Guid(118c44d3f9a3bcf49a971bc47fc1a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8373186a3d358c76153364243fdf0907') in 0.022595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab
-  artifactKey: Guid(9ec98e8c57546a746a43196444d9c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab using Guid(9ec98e8c57546a746a43196444d9c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319aafcdf5e1de3101e9d498f602794') in 0.020886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_Rocket_Active_01.prefab
-  artifactKey: Guid(109d2cf8b02cb1b498b03bb4b6ee117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_RPG_Rocket_Active_01.prefab using Guid(109d2cf8b02cb1b498b03bb4b6ee117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528df793bbacf6c806282d2da0fa80c0') in 0.021510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.721137 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab
-  artifactKey: Guid(0605ab4140367474f95034dcf2790b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Heavy_01.prefab using Guid(0605ab4140367474f95034dcf2790b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1729db522a4fee816ae78624183ab8') in 0.030200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Mil_01.prefab
-  artifactKey: Guid(0dadc2722297b3044b16aa695fd8ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Mil_01.prefab using Guid(0dadc2722297b3044b16aa695fd8ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d867cb947dc874ab286faf984d01fd') in 0.023178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_01.prefab
-  artifactKey: Guid(6b7a5fffc38c176409283bbcc18eaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_01.prefab using Guid(6b7a5fffc38c176409283bbcc18eaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a426aefe94b3441a12e5e7bd8e5830de') in 0.026645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_Lite_01.prefab
-  artifactKey: Guid(e4b5e619f4a1e5844b32eec0d702d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_SubMGun_Lite_01.prefab using Guid(e4b5e619f4a1e5844b32eec0d702d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12ec738b7e0b9e47fca3d16d755640e') in 0.026012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Lite_01.prefab
-  artifactKey: Guid(0eea16a93a3714247bedd5ce3e43849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonBattleRoyale/Prefabs/Weapons/SM_Wep_Sniper_Lite_01.prefab using Guid(0eea16a93a3714247bedd5ce3e43849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5a1faafd0124b4806c62e59386ccbf') in 0.021236 seconds 
+  path: Assets/Scripts/DoorAnimation.cs
+  artifactKey: Guid(22346791dbecf496582aa182bf9c78a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DoorAnimation.cs using Guid(22346791dbecf496582aa182bf9c78a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd588673914aab1d0211e191343f68ca0') in 0.021372 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
