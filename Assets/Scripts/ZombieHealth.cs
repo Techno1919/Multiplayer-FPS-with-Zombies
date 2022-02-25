@@ -28,6 +28,8 @@ public class ZombieHealth : MonoBehaviour
         if (isDead) return;
         if(currentHealth <= 0)
         {
+            Game.game.playerScore += 25;
+            Debug.Log(Game.game.playerScore);
             isDead = true;
             return;
         }

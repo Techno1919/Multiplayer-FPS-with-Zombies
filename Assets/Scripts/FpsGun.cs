@@ -67,6 +67,8 @@ public class FpsGun : MonoBehaviour {
                     break;
                 case "Zombie":
                     shootHit.collider.GetComponent<ZombieHealth>().TakeDamage(damagePerShot);
+                    Game.game.playerScore += 10;
+                    Debug.Log(Game.game.playerScore);
                     break;
                 default:
                     PhotonNetwork.Instantiate("impact" + hitTag, shootHit.point, Quaternion.Euler(shootHit.normal.x - 90, shootHit.normal.y, shootHit.normal.z), 0);
